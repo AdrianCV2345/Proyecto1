@@ -1,0 +1,36 @@
+.navbar {
+    padding: 10px;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: rgb(154, 154, 154);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar h1 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: auto;
+}
